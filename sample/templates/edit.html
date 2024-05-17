@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Book</title>
+</head>
+<body>
+    <h2>Edit Book</h2>
+    <form action="/update/{{ book.id }}" method="post">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" value="{{ book.title }}"><br>
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author" value="{{ book.author }}"><br>
+        <label for="publisher">Publisher:</label><br>
+        <input type="text" id="publisher" name="publisher" value="{{ book.publisher }}"><br>
+        <label for="cost">Cost:</label><br>
+        <input type="number" id="cost" name="cost" value="{{ book.cost }}"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
