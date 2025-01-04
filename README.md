@@ -1,6 +1,6 @@
 # Book Vault
 
-The Book Vault is a web application built using the Python Flask framework that allows users to manage a collection of books. It performs CRUD (Create, Read, Update, Delete) operations to manage book details such as the book's name, author, price, and other relevant information.
+The Book Vault is  built using the Python Flask framework that allows users to manage a collection of books. It performs CRUD (Create, Read, Update, Delete) operations to manage book details such as the book's name, author, price, and other relevant information.
 
 This project provides a simple and intuitive interface for managing book details, making it ideal for small-scale book inventory systems or personal book collections. It also serves as a great example of how to use Flask to build dynamic web applications.
 
@@ -18,7 +18,7 @@ Simple and intuitive design for easy interaction with the application.
 
 # Technologies Used
 - Backend: Python (Flask framework)
-- Frontend: HTML, CSS, and JavaScript
+
 
 # Getting Started
 - Prerequisites
